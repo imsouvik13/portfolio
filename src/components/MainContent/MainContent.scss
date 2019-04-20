@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Kalam|Permanent+Marker');
+
+.MainContent {
+   display: flex;
+   background: #00a8ff;
+   height: 100vh;
+   flex: 8;
+   justify-content: center;
+   align-items: center;
+}
+
+#main__text  {
+   text-transform: uppercase;
+   font-size: 2rem;
+   color: #fff;
+   font-family: 'Kalam', cursive;
+   font-weight: bold;
+   word-spacing: 0.7rem;
+   letter-spacing: 0.3rem;
+   
+}

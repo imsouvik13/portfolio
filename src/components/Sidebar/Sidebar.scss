@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Cookie|Kalam|Patrick+Hand|Permanent+Marker|Sacramento|Tangerine');
+
+.Sidebar {
+   display: flex;
+   background: rgba(255, 86, 34, 1);
+   height: 100vh;
+   flex: 2;
+   justify-content: center;
+   align-items: center;
+   position: sticky;
+   left: 0;
+   width: 20%;
+   flex-direction: column;
+
+}
+
+.Sidebar .menu ul {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.Sidebar .menu li {
+   list-style: none;
+   text-transform: capitalize;
+   color: #fff;
+   padding-top: 0.8rem; 
+   font-family: 'Patrick Hand', cursive;
+}
+
+.brand-img {
+   width: 50%;
+   border-radius: 55%;
+   // margin: 4rem;
+   position: absolute;
+   top: 5rem;
+}
+
+
+.social-icons {
+   // display: flex;
+   position: absolute;
+   bottom: 4rem;
+   // justify-content: space-around;
+}
+
+.social-icons i {
+   margin: 0.4rem 1rem;
+}
+
+
+
+@media screen and(max-width: 750px) {
+   
+   .Sidebar {
+      position: fixed;
+      width: 100%;
+   }
+
+   .social-icons {}
+
+   .Sidebar .menu li {
+      list-style: none;
+      // text-transform: uppercase;
+      color: #111;
+      padding-top: 0.7rem; 
+      position: relative;
+      top: 5rem;
+      color: #fff;
+      font-size: 1rem;
+      letter-spacing: 0.2rem;
+      font-weight: 600;
+      // display: none;
+   }
+   
+}
